@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/usuarios")
 public class UsuarioController {
-
+    // clase controladora
     @Autowired
     private UsuarioServiceImp usuarioServiceImp;
 
