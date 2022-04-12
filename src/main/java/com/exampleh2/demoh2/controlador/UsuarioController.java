@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/usuarios")
 public class UsuarioController {
     // clase controladora
+    // clase encargada de los metodos API
     @Autowired
     private UsuarioServiceImp usuarioServiceImp;
 
